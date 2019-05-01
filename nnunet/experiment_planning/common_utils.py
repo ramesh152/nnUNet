@@ -12,6 +12,9 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
+import sys
+sys.path.append('/home/ramesh/Desktop/IIITB/nnUNet')
+
 import numpy as np
 from copy import deepcopy
 from nnunet.network_architecture.generic_UNet import Generic_UNet

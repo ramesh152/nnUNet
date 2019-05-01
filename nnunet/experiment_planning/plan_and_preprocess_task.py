@@ -12,6 +12,10 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
+
+import sys
+sys.path.append('/home/ramesh/Desktop/IIITB/nnUNet')
+
 from nnunet.experiment_planning.find_classes_in_slice import add_classes_in_slice_info
 from nnunet.preprocessing.cropping import ImageCropper
 from batchgenerators.utilities.file_and_folder_operations import *

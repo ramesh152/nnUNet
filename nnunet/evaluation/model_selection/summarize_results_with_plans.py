@@ -12,6 +12,9 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
+import sys
+sys.path.append('/home/ramesh/Desktop/IIITB/nnUNet')
+
 from batchgenerators.utilities.file_and_folder_operations import *
 import os
 from nnunet.evaluation.model_selection.summarize_results_in_one_json import summarize
